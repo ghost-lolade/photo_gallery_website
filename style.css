@@ -1,0 +1,283 @@
+body{
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+}
+#header{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 40px;
+    background: linear-gradient(transparent, black),url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    clear: both;
+}
+#head{
+    margin-left: 40px;
+    position: absolute;
+    margin-top: 60px;
+    background-color: darkslategray;
+    width: 80%;
+    padding: 20px;
+}
+#hyper{
+    margin-top: -30px;
+    float: right;
+}
+a.home{
+    color: black;
+    padding:20px;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-decoration-line: none;
+    font-family: sans-serif arial helvetica;
+    
+}
+a.home:hover{
+    color: deeppink;
+}
+
+#about{
+    margin: 70px;
+    width: auto;
+    clear: both;
+}
+#welcome-image img{
+    float: left;
+}
+#welcome-note{
+    float: right;
+    width: 40%;
+    margin: 60px 60px 0 auto;
+    padding: 80px 40px 0 0;
+}
+.style{
+    color: deeppink;
+    font-family: cursive helvetica;
+    font-size: 30px;
+    font-style: oblique;
+    
+}
+h1, h2, h3{
+    font-size: 30px;
+    font-family: cursive;
+    color: darkslategray;
+}
+
+#varieties, #lifestyle{
+    background: url(IMG-20190613-WA0013.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    clear: both;
+    width: auto;
+    margin: 20px 90px 50px 70px;
+}
+#varieties h1{
+    margin: 60px auto 40px 20px;
+    padding: 120px 0 0 0;
+}
+#varieties #varieties-note p{
+    margin: 20px 20px;
+    width: 40%;
+    color: dimgray;
+}
+.food-n-image{
+    width: 30%;
+    margin: 20px 10px;
+}
+.three2:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+#right1{
+    float: left;
+    margin-left: 30px;
+}
+#right2{
+    float: right;
+}
+h4{
+    font-size: 20px;
+    font-family: cursive;
+    padding: 20px
+}
+p{
+    color: dimgray;
+    line-height: 25px
+}
+.paragraph{
+    background-color: #eee;
+    padding: 0 0 0 20px;
+    margin-top: -30px;
+}
+
+#contact-us{
+    content: "";
+    clear: both;
+    display: table;
+}
+.customer{
+    color: white;
+    clear: both;
+    background-color: darkslategrey;
+    width: auto;
+    background-position: cover;
+    background-size: cover;
+    margin: 60px -5px 60px -5px;
+}
+.customer h3{
+    color: white
+}
+#description{
+    text-align: center;
+    font-size: 2em;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    color: darkslategray;
+    background-color: white;
+    border-radius: 10px;
+}
+#contact-us{
+    margin: auto;
+    width: auto;
+    height: 50vh;
+}
+#contact-us h2, #contact-us div, h3{
+    text-align: center;
+    padding: 20px;
+}
+#contact-us div span{
+    margin: 20px;
+    font-size: 20px;
+    color: deeppink;
+    align-self: center;
+}
+#contact-us div span.black{
+    color: darkslategrey;
+}
+footer{
+    color: white;
+    background-color: darkslategray;
+    padding: 10px;
+    margin-bottom: -5px;
+    height: 7vh;
+    width: auto;
+}
+small{
+    font-size: 18px;
+    margin-top: 10px
+}
+footer div{
+    font-size: 18px;
+    float: right;
+    width: auto;
+}
+a img{
+    padding: 3px
+}
+ul{
+/*    position: absolute;*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80vh;
+    background: #ccc;
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+    position: relative;
+    width: 20%;
+    height: 100%;
+    border-right: 1px solid #000;
+    float: left;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-align: center;
+    overflow: hidden;
+}
+.list1 ul li:nth-child(1){
+    background: url(IMG-2.jpg);
+    background-size: cover;
+    background-position: left;
+}
+.list1 ul li:nth-child(2){
+    background: url(IMG-10.jpg);
+    background-size: cover;
+    background-position: left;
+}
+.list1 ul li:nth-child(3){
+    background: url(IMG-11.jpg);
+    background-size: cover;
+    background-position: left;
+}
+.list1 ul li:nth-child(4){
+    background: url(IMG-12.jpg);
+    background-size: cover;
+    background-position: left;
+}
+.list1 ul li:nth-child(5){
+    background: url(IMG-13.jpg);
+    background-size: cover;
+    background-position: left;
+}
+.list2 ul li:nth-child(1){
+    background: url(IMG-16.jpg);
+    background-size: cover;
+    background-position: left;
+}
+.list2 ul li:nth-child(2){
+    background: url(IMG-8.jpg);
+    background-size: cover;
+    background-position: left;
+}
+.list2 ul li:nth-child(3){
+    background: url(IMG-6.jpg);
+    background-size: cover;
+    background-position: left;
+}
+.list2 ul li:nth-child(4){
+    background: url(IMG-20190613-WA0020.jpg);
+    background-size: cover;
+    background-position: left;
+}
+.list2 ul li:nth-child(5){
+    background: url(IMG-16.jpg);
+    background-size: cover;
+    background-position: left;
+}
+ul:hover li{
+    width: 10%;
+}
+ul li:hover{
+    width: 60%;
+}
+/*
+ul li .slide{
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    background: darkslategray;
+    box-sizing: border-box;
+    color: #fff;
+    opacity: 0;
+    height: 130px;
+}
+*/
+ul li:hover .slide{
+    bottom: 0;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+    opacity: 1;
+    
+}
+.slide h2{
+    color: deeppink;
+}
